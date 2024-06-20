@@ -19,5 +19,7 @@ module.exports = {
     '@typescript-eslint/no-unused-expressions': 'off',
     'eol-last': 'off',
     'dot-notation': 'off',
+    '@typescript-eslint/consistent-type-imports': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
   },
 };

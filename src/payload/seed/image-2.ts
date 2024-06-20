@@ -4,7 +4,7 @@ export const image2: Omit<Media, 'id' | 'createdAt' | 'updatedAt'> = {
   alt: 'E-Book',
   caption: [
     {
-      children: [
+      r: [
         {
           text: 'Photo by ',
         },

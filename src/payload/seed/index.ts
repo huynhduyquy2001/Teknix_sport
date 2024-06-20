@@ -230,9 +230,8 @@ export const seed = async (payload: Payload): Promise<void> => {
           collection: 'comments',
           data: {
             _status: 'published',
-            comment: `This is a comment on post ${
-              index + 1
-            }. It has been approved by an admin and is now visible to the public. You can leave your own comment on this post using the form below.`,
+            comment: `This is a comment on post ${index + 1
+              }. It has been approved by an admin and is now visible to the public. You can leave your own comment on this post using the form below.`,
             user: demoUserID,
             doc: post.id,
           },

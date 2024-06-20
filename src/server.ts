@@ -206,10 +206,10 @@ const start = async (): Promise<void> => {
       },
     ),
   )
-  if (process.env.PAYLOAD_SEED === 'true') {
-    await seed(payload)
-    process.exit()
-  }
+  // if (process.env.PAYLOAD_SEED === 'true') {
+  //   await seed(payload)
+  //   process.exit()
+  // }
 
   if (process.env.NEXT_BUILD) {
     app.listen(PORT, async () => {
