@@ -1,0 +1,23 @@
+module.exports = {
+  root: true,
+  extends: ['plugin:@next/next/recommended', '@payloadcms'],
+  ignorePatterns: ['**/payload-types.ts'],
+  plugins: ['prettier'],
+  rules: {
+    'prettier/prettier': 'off',
+    'react/no-unescaped-entities': 'off',
+    '@next/next/no-page-custom-font': 'off',
+    '@typescript-eslint/no-unused-vars': 'off',
+    'react-hooks/exhaustive-deps': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    'no-console': 'off',
+    '@typescript-eslint/no-shadow': 'off',
+    '@typescript-eslint/no-implicit-any-catch': 'off',
+    '@typescript-eslint/prefer-optional-chain': 'off',
+    'simple-import-sort/imports': 'off',
+    'comma-dangle': 'off',
+    '@typescript-eslint/no-unused-expressions': 'off',
+    'eol-last': 'off',
+    'dot-notation': 'off',
+  },
+};
